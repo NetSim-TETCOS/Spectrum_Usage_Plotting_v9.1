@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CognitiveRadio", "CognitiveRadio\CognitiveRadio.vcxproj", "{3E38761D-304B-4164-8CC0-168DCE0A9256}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0F53C6C3-F90B-4B67-B41D-84CAF7FFEA2B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetSim_MATLAB_Interface", "NetSim_MATLAB_Interface\NetSim_MATLAB_Interface.vcxproj", "{0387EDAD-2DAB-4D50-9442-08802F74633D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Application", "Application\Application.vcxproj", "{F46381CF-7723-45F4-80D4-273D8202EAF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E38761D-304B-4164-8CC0-168DCE0A9256}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3E38761D-304B-4164-8CC0-168DCE0A9256}.Debug|Win32.Build.0 = Debug|Win32
+		{3E38761D-304B-4164-8CC0-168DCE0A9256}.Release|Win32.ActiveCfg = Release|Win32
+		{3E38761D-304B-4164-8CC0-168DCE0A9256}.Release|Win32.Build.0 = Release|Win32
+		{0387EDAD-2DAB-4D50-9442-08802F74633D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0387EDAD-2DAB-4D50-9442-08802F74633D}.Debug|Win32.Build.0 = Debug|Win32
+		{0387EDAD-2DAB-4D50-9442-08802F74633D}.Release|Win32.ActiveCfg = Release|Win32
+		{0387EDAD-2DAB-4D50-9442-08802F74633D}.Release|Win32.Build.0 = Release|Win32
+		{F46381CF-7723-45F4-80D4-273D8202EAF5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F46381CF-7723-45F4-80D4-273D8202EAF5}.Debug|Win32.Build.0 = Debug|Win32
+		{F46381CF-7723-45F4-80D4-273D8202EAF5}.Release|Win32.ActiveCfg = Release|Win32
+		{F46381CF-7723-45F4-80D4-273D8202EAF5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

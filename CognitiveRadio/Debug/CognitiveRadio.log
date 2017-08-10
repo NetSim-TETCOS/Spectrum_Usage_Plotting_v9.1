@@ -1,0 +1,94 @@
+﻿Build started 05-05-2017 15:56:29.
+     1>Project "C:\Users\Tetcos\Desktop\11Webinar - NetSim_Data_Analytics&Visualization\Channel Utilization\CognitiveRadio\CognitiveRadio.vcxproj" on node 2 (rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Creating "Debug\CognitiveRadio.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../Include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D COGNITIVERADIO_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt 802_22.c Channel_Utilization_Plot.c DCD.c DSFrame.c DSMAP.c DSx.c FCH.c Fragmentation.c Incumbent.c OFDMA.c PacketForward.c PropagationModel.c SCH.c SpectrumManager.c UCD.c USFrame.c USMAP.c
+         USMAP.c
+         USFrame.c
+         UCD.c
+         SpectrumManager.c
+     1>c:\users\tetcos\desktop\11webinar - netsim_data_analytics&visualization\channel utilization\cognitiveradio\spectrummanager.c(245): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\tetcos\desktop\11webinar - netsim_data_analytics&visualization\channel utilization\cognitiveradio\spectrummanager.c(247): warning C4013: 'fn_matlab_execute_command' undefined; assuming extern returning int
+         SCH.c
+         PropagationModel.c
+         PacketForward.c
+         OFDMA.c
+         Incumbent.c
+     1>c:\users\tetcos\desktop\11webinar - netsim_data_analytics&visualization\channel utilization\cognitiveradio\incumbent.c(48): warning C4013: 'fn_matlab_execute_command' undefined; assuming extern returning int
+         Fragmentation.c
+         FCH.c
+         DSx.c
+         DSMAP.c
+         DSFrame.c
+         DCD.c
+         Channel_Utilization_Plot.c
+     1>c:\users\tetcos\desktop\11webinar - netsim_data_analytics&visualization\channel utilization\cognitiveradio\channel_utilization_plot.c(14): warning C4013: 'fn_matlab_execute_command' undefined; assuming extern returning int
+     1>c:\users\tetcos\desktop\11webinar - netsim_data_analytics&visualization\channel utilization\cognitiveradio\channel_utilization_plot.c(17): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\tetcos\desktop\11webinar - netsim_data_analytics&visualization\channel utilization\cognitiveradio\channel_utilization_plot.c(36): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\tetcos\desktop\11webinar - netsim_data_analytics&visualization\channel utilization\cognitiveradio\channel_utilization_plot.c(42): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\tetcos\desktop\11webinar - netsim_data_analytics&visualization\channel utilization\cognitiveradio\channel_utilization_plot.c(62): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\tetcos\desktop\11webinar - netsim_data_analytics&visualization\channel utilization\cognitiveradio\channel_utilization_plot.c(82): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\tetcos\desktop\11webinar - netsim_data_analytics&visualization\channel utilization\cognitiveradio\channel_utilization_plot.c(89): warning C4013: 'fn_NetSim_CR_Channel_Utilization_PU_Plot_Parameters' undefined; assuming extern returning int
+     1>c:\users\tetcos\desktop\11webinar - netsim_data_analytics&visualization\channel utilization\cognitiveradio\channel_utilization_plot.c(90): warning C4013: 'fn_NetSim_CR_Channel_Utilization_SU_Plot_Parameters' undefined; assuming extern returning int
+     1>c:\users\tetcos\desktop\11webinar - netsim_data_analytics&visualization\channel utilization\cognitiveradio\channel_utilization_plot.c(105): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\tetcos\desktop\11webinar - netsim_data_analytics&visualization\channel utilization\cognitiveradio\channel_utilization_plot.c(117): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\tetcos\desktop\11webinar - netsim_data_analytics&visualization\channel utilization\cognitiveradio\channel_utilization_plot.c(130): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\tetcos\desktop\11webinar - netsim_data_analytics&visualization\channel utilization\cognitiveradio\channel_utilization_plot.c(145): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\tetcos\desktop\11webinar - netsim_data_analytics&visualization\channel utilization\cognitiveradio\channel_utilization_plot.c(195): warning C4047: '=' : 'char **' differs in levels of indirection from 'char *'
+         802_22.c
+     1>c:\users\tetcos\desktop\11webinar - netsim_data_analytics&visualization\channel utilization\cognitiveradio\802_22.c(14): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+     1>c:\users\tetcos\desktop\11webinar - netsim_data_analytics&visualization\channel utilization\cognitiveradio\802_22.c(15): warning C4013: 'fn_netsim_matlab_init' undefined; assuming extern returning int
+     1>c:\users\tetcos\desktop\11webinar - netsim_data_analytics&visualization\channel utilization\cognitiveradio\802_22.c(155): warning C4013: 'fn_matlab_execute_command' undefined; assuming extern returning int
+     1>c:\users\tetcos\desktop\11webinar - netsim_data_analytics&visualization\channel utilization\cognitiveradio\802_22.c(166): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+     1>c:\users\tetcos\desktop\11webinar - netsim_data_analytics&visualization\channel utilization\cognitiveradio\802_22.c(167): warning C4013: 'fn_netsim_matlab_Finish' undefined; assuming extern returning int
+         Generating Code...
+     1>c:\users\tetcos\desktop\11webinar - netsim_data_analytics&visualization\channel utilization\cognitiveradio\channel_utilization_plot.c(97): warning C4716: 'fn_NetSim_CR_Channel_Utilization_Init' : must return a value
+     1>c:\users\tetcos\desktop\11webinar - netsim_data_analytics&visualization\channel utilization\cognitiveradio\channel_utilization_plot.c(148): warning C4716: 'fn_NetSim_CR_Channel_Utilization_PU_Plot_Parameters' : must return a value
+     1>c:\users\tetcos\desktop\11webinar - netsim_data_analytics&visualization\channel utilization\cognitiveradio\channel_utilization_plot.c(174): warning C4716: 'fn_NetSim_CR_Channel_Utilization_plot_update_PU_yvalue_Update' : must return a value
+     1>c:\users\tetcos\desktop\11webinar - netsim_data_analytics&visualization\channel utilization\cognitiveradio\channel_utilization_plot.c(268): warning C4716: 'fn_NetSim_CR_Channel_Utilization_SU_Plot_Parameters' : must return a value
+     1>c:\users\tetcos\desktop\11webinar - netsim_data_analytics&visualization\channel utilization\cognitiveradio\channel_utilization_plot.c(297): warning C4716: 'fn_NetSim_CR_Channel_Utilization_SU_ystr_Update' : must return a value
+     1>c:\users\tetcos\desktop\11webinar - netsim_data_analytics&visualization\channel utilization\cognitiveradio\channel_utilization_plot.c(333): warning C4716: 'fn_NetSim_CR_Channel_Utilization_plot_update_SU_yvalue_Update' : must return a value
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Tetcos\Desktop\11Webinar - NetSim_Data_Analytics&Visualization\Channel Utilization\CognitiveRadio\../Dll\CognitiveRadio.dll) does not match the Linker's OutputFile property value (C:\Users\Tetcos\Desktop\11Webinar - NetSim_Data_Analytics&Visualization\Channel Utilization\Dll\libCognitiveRadio.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(CognitiveRadio) does not match the Linker's OutputFile property value (libCognitiveRadio). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../Dll\libCognitiveRadio.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:../lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CognitiveRadio.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Tetcos\Desktop\11Webinar - NetSim_Data_Analytics&Visualization\Channel Utilization\Dll\CognitiveRadio.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../Dll\CognitiveRadio.lib" /MACHINE:X86 /DLL Debug\802_22.obj
+         Debug\Channel_Utilization_Plot.obj
+         Debug\DCD.obj
+         Debug\DSFrame.obj
+         Debug\DSMAP.obj
+         Debug\DSx.obj
+         Debug\FCH.obj
+         Debug\Fragmentation.obj
+         Debug\Incumbent.obj
+         Debug\OFDMA.obj
+         Debug\PacketForward.obj
+         Debug\PropagationModel.obj
+         Debug\SCH.obj
+         Debug\SpectrumManager.obj
+         Debug\UCD.obj
+         Debug\USFrame.obj
+         Debug\USMAP.obj
+     1>802_22.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         CognitiveRadio.lib(802_22_lib.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     1>802_22.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+            Creating library ../Dll\CognitiveRadio.lib and object ../Dll\CognitiveRadio.exp
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>CognitiveRadio.lib(802_22_lib.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'CognitiveRadio.lib(802_22_lib.obj)' or at 'C:\Users\Tetcos\Desktop\11Webinar - NetSim_Data_Analytics&Visualization\Channel Utilization\Dll\vc100.pdb'; linking object as if no debug info
+     1>ErrorModel.lib(ber.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'ErrorModel.lib(ber.obj)' or at 'C:\Users\Tetcos\Desktop\11Webinar - NetSim_Data_Analytics&Visualization\Channel Utilization\Dll\vc100.pdb'; linking object as if no debug info
+         CognitiveRadio.vcxproj -> C:\Users\Tetcos\Desktop\11Webinar - NetSim_Data_Analytics&Visualization\Channel Utilization\CognitiveRadio\../Dll\CognitiveRadio.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../Dll\libCognitiveRadio.dll;#2" /manifest Debug\CognitiveRadio.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\CognitiveRadio.unsuccessfulbuild".
+         Touching "Debug\CognitiveRadio.lastbuildstate".
+     1>Done Building Project "C:\Users\Tetcos\Desktop\11Webinar - NetSim_Data_Analytics&Visualization\Channel Utilization\CognitiveRadio\CognitiveRadio.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.43

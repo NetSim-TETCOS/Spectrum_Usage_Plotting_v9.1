@@ -1,0 +1,27 @@
+﻿Build started 05-05-2017 15:43:29.
+     1>Project "C:\Users\Tetcos\Desktop\11Webinar - NetSim_Data_Analytics&Visualization\Channel Utilization\NetSim_MATLAB_Interface\NetSim_MATLAB_Interface.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Creating "Debug\NetSim_MATLAB_Interface.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\MATLAB\R2011a\extern\include" /I..\Include /ZI /nologo /W3 /WX- /Od /Oy- /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt MATLAB_Interface.c
+         MATLAB_Interface.c
+     1>c:\users\tetcos\desktop\11webinar - netsim_data_analytics&visualization\channel utilization\netsim_matlab_interface\matlab_interface.c(30): warning C4133: 'function' : incompatible types - from 'LPCWSTR' to 'LPCSTR'
+     1>c:\users\tetcos\desktop\11webinar - netsim_data_analytics&visualization\channel utilization\netsim_matlab_interface\matlab_interface.c(31): warning C4133: 'function' : incompatible types - from 'LPCWSTR' to 'LPCSTR'
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Tetcos\Desktop\11Webinar - NetSim_Data_Analytics&Visualization\Channel Utilization\NetSim_MATLAB_Interface\..\Dll\NetSim_MATLAB_Interface.dll) does not match the Linker's OutputFile property value (C:\Users\Tetcos\Desktop\11Webinar - NetSim_Data_Analytics&Visualization\Channel Utilization\Dll\libNetSim_MATLAB_Interface.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(NetSim_MATLAB_Interface) does not match the Linker's OutputFile property value (libNetSim_MATLAB_Interface). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Dll\libNetSim_MATLAB_Interface.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\MATLAB\R2011a\extern\lib\win32\microsoft" libmx.lib libeng.lib libmat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\NetSim_MATLAB_Interface.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Tetcos\Desktop\11Webinar - NetSim_Data_Analytics&Visualization\Channel Utilization\Dll\NetSim_MATLAB_Interface.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\Dll\NetSim_MATLAB_Interface.lib" /MACHINE:X86 /DLL Debug\MATLAB_Interface.obj
+     1>MATLAB_Interface.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+            Creating library ..\Dll\NetSim_MATLAB_Interface.lib and object ..\Dll\NetSim_MATLAB_Interface.exp
+         NetSim_MATLAB_Interface.vcxproj -> C:\Users\Tetcos\Desktop\11Webinar - NetSim_Data_Analytics&Visualization\Channel Utilization\NetSim_MATLAB_Interface\..\Dll\NetSim_MATLAB_Interface.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\Dll\libNetSim_MATLAB_Interface.dll;#2" /manifest Debug\NetSim_MATLAB_Interface.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\NetSim_MATLAB_Interface.unsuccessfulbuild".
+         Touching "Debug\NetSim_MATLAB_Interface.lastbuildstate".
+     1>Done Building Project "C:\Users\Tetcos\Desktop\11Webinar - NetSim_Data_Analytics&Visualization\Channel Utilization\NetSim_MATLAB_Interface\NetSim_MATLAB_Interface.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.89
